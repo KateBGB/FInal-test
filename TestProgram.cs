@@ -1,8 +1,8 @@
-﻿//Написать программу которая один массив из строк преобразует в другой массив из строк, где длина строки <=3.
+﻿//Написать программу которая выбирает из массива строки, где длина <=3.
 
 
 
-void ModifyArray(string []array)
+void Selectstrings(string []array)
 {
     for(int i=0; i< array.Length; i++)
     {
@@ -13,14 +13,6 @@ void ModifyArray(string []array)
     }
 }
 
-
-void PrintArray(string []array)
-{
-    for(int i = 0; i < array.Length; i++)
-    {
-        Console.Write(array[i] + "; ");
-    }
-}
 
 string []CreateArray(int length)
 { 
@@ -52,4 +44,4 @@ Console.WriteLine(String.Join(",", array));
 Console.WriteLine();
 
 //Из массива выбрать строки, чья длина <=3
- ModifyArray(array);
+ Selectstrings(array);
