@@ -51,5 +51,5 @@ string []array = CreateArray(arraySize);
 Console.WriteLine(String.Join(",", array));
 Console.WriteLine();
 
-//На основании массив создать новый массив из строк предущего массива, чья длина <=3
+//Из массива выбрать строки, чья длина <=3
  ModifyArray(array);
